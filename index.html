@@ -11,15 +11,15 @@
     <div class="container">
         <h1>Login do Sistema</h1>
         
-        <select id="ddlUsuario">
+        <select id="usuario">
             <option value="0">Selecione o tipo de cliente</option>
             <option value="1">Usuário</option> 
             <option value="2">Funcionário</option>
             <option value="3">Aposentado</option>
         </select>
-        <input type="password" id="inpSenha" placeholder="Senha">
+        <input type="password" id="inpsenha" placeholder="Senha">
         
-        <button onclick="verificarSenha">Entrar</button>
+        <button onclick="trocaPaginas()">Entrar</button>
         
         <p id="pMensagem" class="msg"></p>
     </div>
