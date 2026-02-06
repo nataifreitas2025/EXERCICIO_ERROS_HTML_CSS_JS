@@ -32,3 +32,4 @@ function trocaPaginas() {
         mensagem.innerHTML = "Usuário ou senha inválidos!";
     }
 }
+ 
